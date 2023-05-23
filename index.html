@@ -9,9 +9,24 @@
 
 	<body>
 		<div>
-			<button id="bookBtn" type="submit" name="submit">Book Room</button>
+			<button
+				class="bookBtn"
+				onclick="hotelA.makeReservation()"
+				type="submit"
+				name="submit"
+			>
+				Book Room
+			</button>
+			<button
+				class="cancelBtn"
+				onclick="hotelA.cancelReservation()"
+				type="submit"
+				name="submit"
+			>
+				Cancel booking
+			</button>
 		</div>
-		<p id="hotelDetails"></p>
+		<p class="hotelDetails"></p>
 		<script src="./objects/hotel.js"></script>
 	</body>
 </html>
