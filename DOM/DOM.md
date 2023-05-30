@@ -4,7 +4,6 @@ DOM stands for document Object Model.
 
 ## Just like Objects, the document object has
 
-
 - Properties - They describe the characteristics of a web page (such as titile of the page)
 
 - Methods - Perform a partucular task using properties of the object
@@ -12,7 +11,6 @@ DOM stands for document Object Model.
 - Events - Triggered whwen the user interacts with the computer
 
 ## How a browser sees a web page
-
 
 1. Receive a page as a HMTL CODE - A website is seen a document or a collection of doccuments if
    it contains more than one page.
@@ -33,13 +31,43 @@ is ranslated one-by one by the interpreter.
 
 ### Study points
 
+-
+-
+-
+-
+-
+-
 
--
--
--
+
+###
+
+
+
+#### The window object
+
+The window Object is the topmost obeject in the browser object model. There are propertiesa on
+the window object and also methods.
+
+some window properties include:
+- window.document
+- window.innerHeight
+- window.innerWidth
+- window.screenY
+- window.screenX
+
+And some window methods include
+
+- window.alert()
+- window.open()
+- windo.print()
 -
 
-#### heading 4
- 
+
+
+#### Global Javasvript Objects
+
+These are a collection of objects that relates to different parts of the javascript language. They usually begin with a capital letter. Example, String, Boolean, Number, Regex, Date, Math etc.
+
 ##### heading 5
+
 ###### heading 6
